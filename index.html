@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO ON-PAGE PROFESIONAL -->
+    <title>Maduritos Soledad | Las Mejores Frituras de Plátano</title>
+    <meta name="description" content="Disfruta de las mejores frituras de plátano en Soledad, Colombia. Maduritos clásicos, con queso y picadas familiares. Ingredientes frescos y receta tradicional. ¡Pide ahora!">
+    <meta name="keywords" content="frituras de platano soledad, maduritos soledad, platano frito a domicilio, snacks de platano, comida rapida soledad, platanos maduros fritos">
+    
+    <!-- SEO TÉCNICO Y RASTREABILIDAD -->
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="index.html">
+    <meta property="og:title" content="Maduritos Soledad | Las Mejores Frituras de Plátano">
+    <meta property="og:description" content="El sabor auténtico y tradicional en cada bocado. Pide tus maduritos frescos a domicilio en Soledad.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="es_CO">
+
+    <!-- Datos Estructurados JSON-LD (SEO Técnico Local) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FoodEstablishment",
+      "name": "Maduritos Soledad",
+      "image": "https://images.unsplash.com/photo-1604424368945-81ec6e0bf31d",
+      "description": "Venta de frituras de plátano tradicionales en Soledad, Colombia.",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Cra. 10b # 45-74",
+        "addressLocality": "Soledad",
+        "addressCountry": "CO"
+      },
+      "telephone": "+573112887645",
+      "url": "index.html",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+        ],
+        "opens": "08:00",
+        "closes": "17:00"
+      }
+    }
+    </script>
+
+    <!-- Tipografía e Iconos -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        :root {
+            --primary: #d97706; /* Ámbar / Dorado del plátano frito */
+            --primary-hover: #b45309;
+            --accent: #f59e0b; /* Amarillo cálido */
+            --dark: #451a03; /* Marrón oscuro / Caramelo */
+            --light-bg: #fffbeb; /* Crema suave */
+            --white: #ffffff;
+            --text-main: #52525b;
+            --max-width: 1100px;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Nunito', sans-serif;
+            color: var(--text-main);
+            background-color: var(--white);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        h1, h2, h3, h4, .logo {
+            font-family: 'Fredoka', sans-serif;
+        }
+
+        .container {
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .section-padding { padding: 80px 0; }
+        .text-center { text-align: center; }
+
+        .section-title {
+            font-size: 2.5rem;
+            color: var(--dark);
+            margin-bottom: 15px;
+        }
+
+        .section-title span { color: var(--primary); }
+
+        .section-subtitle {
+            font-size: 1.1rem;
+            color: var(--text-main);
+            max-width: 650px;
+            margin: 0 auto 50px auto;
+        }
+
+        /* Header */
+        header {
+            background-color: var(--white);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+
+        .nav-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 75px;
+        }
+
+        .logo {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: var(--dark);
+            text-decoration: none;
+        }
+
+        .logo span { color: var(--primary); }
+
+        .nav-phone-btn {
+            background-color: var(--accent);
+            color: var(--dark);
+            padding: 10px 22px;
+            border-radius: 50px;
+            font-weight: 700;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .nav-phone-btn:hover {
+            background-color: var(--primary);
+            color: var(--white);
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(69, 26, 3, 0.7), rgba(69, 26, 3, 0.8)), url('https://images.unsplash.com/photo-1604424368945-81ec6e0bf31d?q=80&w=1200') no-repeat center center/cover;
+            color: var(--white);
+            padding: 120px 0;
+            text-align: center;
+        }
+
+        .hero-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            line-height: 1.2;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .hero p {
+            font-size: 1.25rem;
+            margin-bottom: 35px;
+            color: #fef3c7;
+        }
+
+        .btn-cta {
+            display: inline-block;
+            background-color: var(--primary);
+            color: var(--white);
+            font-family: 'Fredoka', sans-serif;
+            font-weight: 600;
+            font-size: 1.2rem;
+            padding: 18px 45px;
+            border-radius: 50px;
+            text-decoration: none;
+            box-shadow: 0 4px 15px rgba(217, 119, 6, 0.4);
+            transition: transform 0.2s, background-color 0.2s;
+        }
+
+        .btn-cta:hover {
+            transform: translateY(-3px);
+            background-color: var(--primary-hover);
+        }
+
+        /* Beneficios */
+        .benefits { background-color: var(--light-bg); }
+
+        .grid-3 {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .benefit-card {
+            background: var(--white);
+            padding: 40px 30px;
+            border-radius: 16px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.03);
+            text-align: center;
+            border-bottom: 4px solid var(--accent);
+        }
+
+        .benefit-icon {
+            font-size: 3rem;
+            color: var(--primary);
+            margin-bottom: 20px;
+        }
+
+        .benefit-card h3 {
+            font-size: 1.5rem;
+            color: var(--dark);
+            margin-bottom: 15px;
+        }
+
+        /* Productos / Servicios */
+        .products { background-color: var(--white); }
+        
+        .product-card {
+            border: 1px solid #fde68a;
+            border-radius: 16px;
+            overflow: hidden;
+            background: var(--light-bg);
+            transition: transform 0.3s;
+        }
+
+        .product-card:hover { transform: translateY(-5px); }
+
+        .product-img {
+            height: 220px;
+            background-color: #fcd34d;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--dark);
+            font-size: 3rem;
+        }
+
+        .product-info { padding: 25px; text-align: center; }
+        .product-info h4 { font-size: 1.4rem; color: var(--dark); margin-bottom: 10px; }
+
+        /* Prueba Social */
+        .testimonials { background-color: var(--light-bg); }
+
+        .testimonial-card {
+            background: var(--white);
+            padding: 35px;
+            border-radius: 16px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.03);
+            position: relative;
+        }
+
+        .stars { color: var(--accent); margin-bottom: 15px; }
+
+        .testimonial-text {
+            font-style: italic;
+            margin-bottom: 20px;
+            color: var(--text-main);
+        }
+
+        .testimonial-author {
+            font-weight: 700;
+            color: var(--dark);
+            font-family: 'Fredoka', sans-serif;
+        }
+
+        /* Contacto e Información Corporativa */
+        .contact-section { background-color: var(--white); }
+
+        .contact-layout {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+        }
+
+        .info-list { list-style: none; margin-bottom: 30px; }
+        .info-list li {
+            margin-bottom: 15px;
+            display: flex;
+            align-items: flex-start;
+            gap: 15px;
+        }
+        .info-list i { color: var(--primary); font-size: 1.2rem; margin-top: 4px; }
+
+        .hours-box {
+            background-color: var(--light-bg);
+            padding: 20px;
+            border-radius: 12px;
+            border-left: 5px solid var(--accent);
+        }
+
+        /* Formulario */
+        form {
+            background-color: var(--light-bg);
+            padding: 35px;
+            border-radius: 16px;
+            border: 1px solid #fde68a;
+        }
+
+        .form-group { margin-bottom: 20px; }
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: var(--dark);
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 12px 15px;
+            border: 1px solid #d4d4d8;
+            border-radius: 8px;
+            font-family: inherit;
+            font-size: 1rem;
+        }
+        .form-control:focus { outline: none; border-color: var(--primary); }
+
+        .btn-submit {
+            width: 100%;
+            background-color: var(--primary);
+            color: var(--white);
+            border: none;
+            padding: 16px;
+            border-radius: 8px;
+            font-size: 1.1rem;
+            font-family: 'Fredoka', sans-serif;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+        .btn-submit:hover { background-color: var(--primary-hover); }
+
+        /* Footer */
+        footer {
+            background-color: var(--dark);
+            color: #d4d4d8;
+            padding: 40px 0 20px 0;
+            text-align: center;
+        }
+
+        .footer-links { margin-bottom: 25px; }
+        .footer-links a {
+            color: #fef3c7;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: 600;
+            transition: color 0.2s;
+        }
+        .footer-links a:hover { color: var(--accent); }
+
+        .footer-bottom {
+            border-top: 1px solid #78350f;
+            padding-top: 20px;
+            font-size: 0.85rem;
+        }
+
+        .seo-note { display: none; }
+
+        /* Responsive */
+        @media (max-width: 900px) {
+            .contact-layout { grid-template-columns: 1fr; }
+        }
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2.5rem; }
+            .section-title { font-size: 2rem; }
+            .btn-cta { width: 100%; text-align: center; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container nav-container">
+            <a href="index.html" class="logo">Maduritos<span>Soledad</span></a>
+            <a href="tel:3112887645" class="nav-phone-btn"><i class="fa-solid fa-phone"></i> 311 288 7645</a>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="container hero-content">
+            <h1>Disfruta las Mejores Frituras de Plátano en Soledad</h1>
+            <p>Maduritos Soledad te ofrece el auténtico sabor tradicional. Frescos, doraditos por fuera y suavecitos por dentro. Perfectos para cualquier antojo del día.</p>
+            <a href="#ordenar" class="btn-cta">¡Pide tus maduritos a domicilio hoy!</a>
+        </div>
+    </section>
+
+    <!-- Beneficios -->
+    <section class="section-padding benefits">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-title">El Verdadero Sabor <span>Tradicional</span></h2>
+                <p class="section-subtitle">Nos enorgullece preparar nuestras frituras con los mejores estándares de calidad para que disfrutes un producto honesto y delicioso.</p>
+            </div>
+            <div class="grid-3">
+                <div class="benefit-card">
+                    <i class="fa-solid fa-leaf benefit-icon"></i>
+                    <h3>Ingredientes Frescos</h3>
+                    <p>Seleccionamos cuidadosamente plátanos en su punto exacto de maduración para garantizar el mejor sabor natural, sin aditivos.</p>
+                </div>
+                <div class="benefit-card">
+                    <i class="fa-solid fa-fire-burner benefit-icon"></i>
+                    <h3>Preparación Diaria</h3>
+                    <p>Freímos nuestros maduritos al momento de tu pedido. Siempre te llegarán calientitos, crujientes y listos para disfrutar.</p>
+                </div>
+                <div class="benefit-card">
+                    <i class="fa-solid fa-motorcycle benefit-icon"></i>
+                    <h3>Entrega en Soledad</h3>
+                    <p>Atendemos con rapidez a nuestra comunidad en Soledad, despachando desde nuestra cocina directamente hasta la puerta de tu casa.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Propuesta de Valor / Menú Básico -->
+    <section class="section-padding products">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-title">Nuestros <span>Productos</span></h2>
+                <p class="section-subtitle">Opciones sencillas pero llenas de sabor, ideales para el desayuno, merienda o para compartir.</p>
+            </div>
+            <div class="grid-3">
+                <div class="product-card">
+                    <div class="product-img"><i class="fa-solid fa-cookie"></i></div>
+                    <div class="product-info">
+                        <h4>Maduritos Clásicos</h4>
+                        <p>La porción tradicional de plátano maduro frito. Dorados a la perfección para resaltar su dulzor natural.</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-img"><i class="fa-solid fa-cheese"></i></div>
+                    <div class="product-info">
+                        <h4>Maduritos con Queso</h4>
+                        <p>La combinación costeña infalible: el dulzor del plátano maduro contrastado con queso costeño rallado fresco.</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-img"><i class="fa-solid fa-boxes-packing"></i></div>
+                    <div class="product-info">
+                        <h4>Picadas para Compartir</h4>
+                        <p>Porciones familiares ideales para reuniones, eventos locales o simplemente disfrutar en casa con los tuyos.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Prueba Social Honesta -->
+    <section class="section-padding testimonials">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-title">Lo que dicen en <span>Soledad</span></h2>
+                <p class="section-subtitle">Agradecemos la confianza de nuestros vecinos y clientes que eligen nuestra sazón cada día.</p>
+            </div>
+            <div class="grid-3">
+                <div class="testimonial-card">
+                    <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <p class="testimonial-text">"Excelente sabor, se nota que el plátano es fresco y el aceite limpio. Recomendados 100% para la merienda de los niños."</p>
+                    <div class="testimonial-author">— Cliente local, Soledad</div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <p class="testimonial-text">"El pedido llegó súper rápido y los maduritos con queso estaban calientitos. Muy buena atención por WhatsApp."</p>
+                    <div class="testimonial-author">— Residente del sector</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto e Información de Transparencia -->
+    <section class="section-padding contact-section" id="ordenar">
+        <div class="container contact-layout">
+            
+            <div>
+                <h2 class="section-title">Información de <span>Contacto</span></h2>
+                <p style="margin-bottom: 25px;">Operamos de manera transparente y directa. Contáctanos para realizar tu pedido o resolver cualquier duda sobre nuestros productos.</p>
+                
+                <ul class="info-list">
+                    <li>
+                        <i class="fa-solid fa-user"></i>
+                        <div>
+                            <strong>Responsable Legal:</strong><br>
+                            Stefanny Johanna Martes Hernandez
+                        </div>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-map-pin"></i>
+                        <div>
+                            <strong>Punto de Elaboración y Despacho:</strong><br>
+                            Cra. 10b # 45-74, Soledad, Colombia
+                        </div>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-phone"></i>
+                        <div>
+                            <strong>Línea de Pedidos:</strong><br>
+                            311 288 7645
+                        </div>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-envelope"></i>
+                        <div>
+                            <strong>Correo Electrónico:</strong><br>
+                            tiayanna122@gmail.com
+                        </div>
+                    </li>
+                </ul>
+
+                <div class="hours-box">
+                    <h4><i class="fa-regular fa-clock" style="color: var(--primary);"></i> Horario de Atención:</h4>
+                    <p style="margin-top: 5px;">Todos los días de la semana<br>De 8:00 am a 5:00 pm</p>
+                </div>
+            </div>
+
+            <!-- Formulario de Conversión -->
+            <div>
+                <form id="orderForm">
+                    <div class="form-group">
+                        <label for="nombre">Nombre Completo</label>
+                        <input type="text" id="nombre" class="form-control" placeholder="Tu nombre y apellido" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="telefono">Teléfono / Celular</label>
+                        <input type="tel" id="telefono" class="form-control" placeholder="Ej. 3112887645" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="direccion">Dirección de Entrega (Soledad)</label>
+                        <input type="text" id="direccion" class="form-control" placeholder="Tu dirección exacta para el domicilio" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="pedido">¿Qué maduritos deseas ordenar?</label>
+                        <textarea id="pedido" class="form-control" rows="3" placeholder="Ej. 2 porciones de maduritos con queso..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn-submit">Enviar mi pedido de maduritos</button>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-links">
+                <a href="index.html">Inicio</a>
+                <a href="politica-de-privacidad.html">Política de Privacidad</a>
+                <a href="terminos-y-condiciones.html">Términos y Condiciones</a>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Maduritos Soledad. Elaborado por Stefanny Johanna Martes Hernandez.</p>
+                <p style="margin-top: 5px; color: #a1a1aa; font-size: 0.8rem;">Cra. 10b # 45-74, Soledad, Atlántico, Colombia.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Nota SEO Off-Page -->
+    <div class="seo-note">Emprendimiento gastronómico local en Soledad, listado en directorios comerciales del Atlántico.</div>
+
+    <!-- Script de validación simple (Sin redirecciones extrañas) -->
+    <script>
+        document.getElementById('orderForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const nombre = document.getElementById('nombre').value;
+            
+            // Simulación de envío exitoso / Mensaje transparente
+            alert(`¡Gracias por tu pedido, ${nombre}! Hemos recibido tu solicitud. Nos contactaremos en breve al teléfono indicado para confirmar tu dirección en Soledad y despachar tus maduritos.`);
+            
+            this.reset();
+        });
+    </script>
+</body>
+</html>
